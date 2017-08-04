@@ -1,0 +1,12 @@
+@import '../../../assets/scss/Variables.scss';  
+.navbar-saque{
+    background: $back-color-first;
+    color:$color-first;
+    .logo {
+      float: left;
+      margin-right: 15px;
+      padding-top: 5px;
+      text-indent: -9999px;
+      content: url(#{$pathLogo});
+    }
+}

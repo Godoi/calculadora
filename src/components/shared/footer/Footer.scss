@@ -1,0 +1,11 @@
+@import '../../../assets/scss/Variables.scss';  
+.footer {
+  position: absolute;
+  bottom: 0;
+  color:$color-first;
+  width: 100%;
+  height: 60px;
+  background: $back-color-first;
+  padding: 45px 0 60px 0;
+  p{color:$color-first;}
+}
